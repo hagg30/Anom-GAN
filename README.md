@@ -7,16 +7,7 @@ This implementation is based on Style-Based GAN in PyTorch, rosinality https://g
 
 ## Requirments
 
-h5py>=2.10.0
-imgaug>=0.4.0
-jupyterlab>=2.1.2
-jupyterlab-server>=1.1.4
-matplotlib>=3.2.1
-notebook>=6.0.3
-numpy>=1.18.4
-opencv-python>=4.4.0.42
-torch>=1.5.1+cu101
-torchvision>=0.6.1+cu101
+Please check requirements.txt
 
 ## Usage
 
