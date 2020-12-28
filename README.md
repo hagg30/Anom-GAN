@@ -18,7 +18,7 @@ opencv-python>=4.4.0.42
 torch>=1.5.1+cu101
 torchvision>=0.6.1+cu101
 
-Usage:
+## Usage
 
 1. Prepare MVTAD dataset
 
@@ -46,6 +46,8 @@ Run styleGAN.ipynb
 6. Train your own anomaly mask geneartor
 
 Run encoder.ipynb
+
+## Pretrained Checkpoints
 
 StyleGAN Generator & Optimizer checkpoints saved at resolution level 7 (512px * 512px)
 
