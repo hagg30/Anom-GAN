@@ -2,3 +2,6 @@
 *.png
 *.zip
 *.mdb
+*.ipynb-checkpoints
+*.pycache
+
