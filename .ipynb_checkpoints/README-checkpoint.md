@@ -2,7 +2,7 @@
 
 Implementation of AnoM-GAN: A Novel Unsupervised Anomaly Localization with GAN Manifold Mask Model in PyTorch
 
-This implementation is based on Style-Based GAN in PyTorch, rosinality https://github.com/rosinality/style-based-gan-pytorch
+This implementation is based on Style-Based GAN in PyTorch by rosinality (https://github.com/rosinality/style-based-gan-pytorch)
 
 
 ## Requirments
@@ -87,15 +87,3 @@ Model & Optimizer checkpoints saved at best performance.
 ![Style mixing sample of the model trained on FFHQ](doc/sample_mixing_ffhq_new.png)
 
 512px sample from the generator trained on FFHQ.
-
-## Old Checkpoints
-
-Resolution | Model & Optimizer | Running average of generator
------------|-------------------|------------------------------
-128px      | [Link](https://drive.google.com/open?id=1Fc0d8tTjS7Fcmr8gyHk8M0P-VMiRNeMl) | 100k iter [Link](https://drive.google.com/open?id=1b4MKSVTbWoY15NkzsM58T0QCvTE9d_Ch)
-256px      | [Link](https://drive.google.com/open?id=1K2G1p-m1BQNoTEKJDBGAtFI1fC4eBjcd) | 140k iter [Link](https://drive.google.com/open?id=1n01mlc1mPpQyeUnnWNGeZiY7vp6JgakM)
-512px      | [Link](https://drive.google.com/open?id=1Ls8NA56UnJWGJkRXXyJoDdz4a7uizBtw) | 180k iter [Link](https://drive.google.com/open?id=15lnKHnldIidQnXAlQ8PHo2W4XUTaIfq-)
-
-Old version of checkpoints. As gradient penalty and discriminator activations are different, it is better to use new checkpoints to do some training. But you can use these checkpoints to make samples as generator architecture is not changed.
-
-Running average of generator is saved at the specified iterations. So these two are saved at different iterations. (Yes, this is my mistake.)
